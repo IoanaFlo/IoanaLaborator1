@@ -30,7 +30,7 @@ print(a_doua_parte)
 
 # Elimină toate caracterele de punctuație
 import string
-punctuatie = ".,,,!,?"+string.punctuation  # includem și alte semne posibile
+punctuatie = ".,,,!,?"+string.punctuation  
 a_doua_parte = ''.join([c for c in a_doua_parte if c not in punctuatie])
 
 # 4. Combinarea celor două părți
