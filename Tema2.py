@@ -110,9 +110,9 @@ print()
 note_promovati = [n for n in note if n >= 5]
 if len(note_promovati) > 0:
     media_promovati = sum(note_promovati) / len(note_promovati)
-    print(f"C11. Media promovaților este {media_promovati:.2f}")
+    print(f"Media promovaților este {media_promovati:.2f}")
 else:
-    print("C11. Nu există elevi promovați.")
+    print("Nu există elevi promovați.")
 
 
 
