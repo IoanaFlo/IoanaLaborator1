@@ -20,12 +20,12 @@ print()
 
 # A2. Nota maximă și minimă
 nota_max = max(note)
-#print("nota max: 10")
+print("nota max: 10")
 nota_min = min(note)
-#print("nota min: 4")
-#nota_min = note[note.index(nota_min)]
-#nota_max = note[note.index(nota_max)]
-#print("Nota maximă și minimă:")
+print("nota min: 4")
+nota_min = note[note.index(nota_min)]
+nota_max = note[note.index(nota_max)]
+print("Nota maximă și minimă:")
 print(f"Nota maximă este {nota_max}, obținută de:", end=" ")
 for i in range(len(note)):
     if note[i] == nota_max:
